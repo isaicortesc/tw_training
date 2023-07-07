@@ -1,6 +1,6 @@
 # XML Exercises
 
-Exercise 1:
+Exercise 1::
 Create an XML file with a root element called "employees" and add two employee elements within it. Each employee element should have attributes for "id" and "name".
 
 Exercise 2:
