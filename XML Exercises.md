@@ -3,14 +3,65 @@
 Exercise 1
 Create an XML file with a root element called "employees" and add two employee elements within it. Each employee element should have attributes for "id" and "name".
 
+```xml
+<employees>
+    <employee id="1" name="Barbara"/>
+    <employee id="2" name="Rafael"/>
+</employees>
+```
+
 Exercise 2:
 Extend Exercise 1 by adding child elements within each employee element to represent their information such as "age", "department", and "position".
+
+```xml
+<employees>
+    <employee id="1" name="Barbara">
+        <age>30</age>
+        <department>female</department>
+        <position>manager</position>
+    </employee>
+    <employee id="2" name="Rafael"/>
+        <age>40</age>
+        <department>male</department>
+        <position>asistant</position>
+    </employee>
+</employees>
+```
 
 Exercise 3:
 Create an XML file to represent a book catalog. Include multiple book elements, each with attributes for "title", "author", and "year". Add additional child elements to represent the book's "genre" and "price".
 
+```xml
+<catalog>
+    <book title="El duende del siglo XXI" author="Barbara Antelo" year="2011">
+        <genre>aventure</genre>
+        <price>Bs 50</price>
+    </book>
+    <book title="Sky Kids, aprendiendo a volar" author="Barbara Antelo" year="2013">
+        <genre>Cience ficcion</genre>
+        <price>Bs 50</price>
+    </book>
+   
+        
+   
+</catalog>
+```
+
 Exercise 4:
 Create an XML file to represent a simple contact list. Include multiple contact elements, each with child elements for "name", "email", and "phone". Add attributes to the contact elements for "id" and "category".
+
+<contact_list>
+    <contact id="1" category="Family">
+        <name>Barbara Antelo</name>
+        <email>barbaraantelom@gmail.com</email>
+        <phone>+59171075969</phone>
+    </contact>
+    <contact id="2" category="Friend">
+        <name>Isai</name>
+        <email>isai@gmail.com</email>
+        <phone>+591595954</phone>
+    </contact>
+</contact_list>
 
 Exercise 5:
 Create an XML file to represent a basic shopping list. Include a root element called "shoppingList" and add multiple item elements within it. Each item element should have a child element for "name" and an attribute for "quantity".
